@@ -11,20 +11,23 @@ def notInList(newObject, detectedObjects, thresholdDist = 20):
     return True
 
 def main():
-    img_rgb = cv2.imread("./games/game3.png")
+    img_rgb = cv2.imread("../public/games/game4.png")
     img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
     # template = cv2.imread("./icons/Image 102 at frame 0.png",0)
-    template = cv2.imread("./icons/Image 125 at frame 0.png",0)
+    template = cv2.imread("../public/icons/ak.png", 0)
 
     w, h = template.shape[::-1]
 
     thresholdDist = 20
     detectedObjects=[]
+
+    threshold = 0.8
+    linspace = np.linspace(0.5, 2.0, 15)[::-1]
+
     i = 0
-    for scale in np.linspace(0.5, 2.0, 15)[::-1]:
+    for scale in linspace:
         resized = imutils.resize(template, width = int(template.shape[1] * scale))
         res = cv2.matchTemplate(img_gray, resized, cv2.TM_CCOEFF_NORMED)
-        threshold = 0.8
         loc = np.where( res >= threshold)
 
         for pt in zip(*loc[::-1]):

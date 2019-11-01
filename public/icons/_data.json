@@ -1,0 +1,216 @@
+[{
+	"name": "mag7",
+	"path": "icons/mag7.png",
+	"type": "shotgun",
+	"cost": 1300
+}, {
+	"name": "decoy",
+	"path": "icons/decoy.png",
+	"type": "utility",
+	"cost": 50
+}, {
+	"name": "fiveseven",
+	"path": "icons/fiveseven.png",
+	"type": "pistol",
+	"cost": 500
+}, {
+	"name": "mp9",
+	"path": "icons/mp9.png",
+	"type": "smg",
+	"cost": 1250
+}, {
+	"name": "ump",
+	"path": "icons/ump.png",
+	"type": "smg",
+	"cost": 1200
+}, {
+	"name": "sawedoff",
+	"path": "icons/sawedoff.png",
+	"type": "shotgun",
+	"cost": 1100
+}, {
+	"name": "mac10",
+	"path": "icons/mac10.png",
+	"type": "smg",
+	"cost": 1050
+}, {
+	"name": "dualelites",
+	"path": "icons/dualelites.png",
+	"type": "pistol",
+	"cost": 400
+}, {
+	"name": "deagle",
+	"path": "icons/deagle.png",
+	"type": "pistol",
+	"cost": 700
+}, {
+	"name": "armor_helmet",
+	"path": "icons/armor_helmet.png",
+	"type": "utility",
+	"cost": 1000
+}, {
+	"name": "scar",
+	"path": "icons/scar.png",
+	"type": "rifle",
+	"cost": 5000
+}, {
+	"name": "flashbang",
+	"path": "icons/flashbang.png",
+	"type": "utility",
+	"cost": 200
+}, {
+	"name": "krieg",
+	"path": "icons/krieg.png",
+	"type": "rifle",
+	"cost": 2750
+}, {
+	"name": "awp",
+	"path": "icons/awp.png",
+	"type": "rifle",
+	"cost": 4750
+}, {
+	"name": "usp",
+	"path": "icons/usp.png",
+	"type": "pistol",
+	"cost": 200
+}, {
+	"name": "usps",
+	"path": "icons/usps.png",
+	"type": "pistol",
+	"cost": 200
+}, {
+	"name": "armor",
+	"path": "icons/armor.png",
+	"type": "utility",
+	"cost": 650
+}, {
+	"name": "glock",
+	"path": "icons/glock.png",
+	"type": "pistol",
+	"cost": 200
+}, {
+	"name": "p2000",
+	"path": "icons/p2000.png",
+	"type": "pistol",
+	"cost": 200
+}, {
+	"name": "aug",
+	"path": "icons/aug.png",
+	"type": "rifle",
+	"cost": 3300
+}, {
+	"name": "molotov",
+	"path": "icons/molotov.png",
+	"type": "utility",
+	"cost": 400
+}, {
+	"name": "m249",
+	"path": "icons/m249.png",
+	"type": "lmg",
+	"cost": 5200
+}, {
+	"name": "tech9",
+	"path": "icons/tech9.png",
+	"type": "pistol",
+	"cost": 500
+}, {
+	"name": "p90",
+	"path": "icons/p90.png",
+	"type": "smg",
+	"cost": 2350
+}, {
+	"name": "p250",
+	"path": "icons/p250.png",
+	"type": "pistol",
+	"cost": 300
+}, {
+	"name": "m4a4",
+	"path": "icons/m4a4.png",
+	"type": "rifle",
+	"cost": 3100
+}, {
+	"name": "m4a1",
+	"path": "icons/m4a1.png",
+	"type": "rifle",
+	"cost": 3100
+}, {
+	"name": "smoke",
+	"path": "icons/smoke.png",
+	"type": "utility",
+	"cost": 300
+}, {
+	"name": "bizon",
+	"path": "icons/bizon.png",
+	"type": "smg",
+	"cost": 1400
+}, {
+	"name": "defusekit",
+	"path": "icons/defusekit.png",
+	"type": "utlity",
+	"cost": 400
+}, {
+	"name": "xm1014",
+	"path": "icons/xm1014.png",
+	"type": "shotgun",
+	"cost": 2000
+}, {
+	"name": "m4a1s",
+	"path": "icons/m4a1s.png",
+	"type": "rifle",
+	"cost": 3100
+}, {
+	"name": "zeus",
+	"path": "icons/zeus.png",
+	"type": "utility",
+	"cost": 200
+}, {
+	"name": "galil",
+	"path": "icons/galil.png",
+	"type": "rifle",
+	"cost": 2000
+}, {
+	"name": "nova",
+	"path": "icons/nova.png",
+	"type": "shotgun",
+	"cost": 1050
+}, {
+	"name": "negev",
+	"path": "icons/negev.png",
+	"type": "lmg",
+	"cost": 1700
+}, {
+	"name": "scout",
+	"path": "icons/scout.png",
+	"type": "rifle",
+	"cost": 1700
+}, {
+	"name": "incendiary",
+	"path": "icons/incendiary.png",
+	"type": "utility",
+	"cost": 600
+}, {
+	"name": "famas",
+	"path": "icons/famas.png",
+	"type": "rifle",
+	"cost": 2250
+}, {
+	"name": "g3sg1",
+	"path": "icons/g3sg1.png",
+	"type": "rifle",
+	"cost": 5000
+}, {
+	"name": "mp7",
+	"path": "icons/mp7.png",
+	"type": "smg",
+	"cost": 1500
+}, {
+	"name": "ak",
+	"path": "icons/ak.png",
+	"type": "rifle",
+	"cost": 2700
+}, {
+	"name": "hegrenade",
+	"path": "icons/hegrenade.png",
+	"type": "utility",
+	"cost": 300
+}]
