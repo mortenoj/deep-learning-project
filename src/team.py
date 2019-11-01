@@ -1,20 +1,16 @@
+import cv2
+import numpy as np
+
 from equipment import Equipment
 
 class Team:
-    def __init__(self, side, inventory):
-        self.side = side
-        self.inventory = inventory
-        self.totalWorth
+    def __init__(self):
+        self.EquipmentImage = []
+        self.Equipment = []
+        self.EquipmentValue = 0
 
-    def CalculateTotalWorth(self):
-        self.totalWorth = 0
-        for equipment in self.inventory:
-            self.totalWorth += equipment.worth
-        
-        return self.totalWorth
+    def CalculateEquipmentValue(self):
+        for e in self.Equipment:
+            if e["count"] > 0:
+                self.EquipmentValue += (int(e["cost"]) * int(e["count"]))
 
-    mainWeapons: 1, 6, 8, 9
-
-    utility: 1, 1, 1, 1
-    
-    smokeCount: 4
