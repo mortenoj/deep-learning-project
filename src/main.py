@@ -41,11 +41,11 @@ def main():
     ct.CalculateEquipmentValue()
     t.CalculateEquipmentValue()
 
-    # print("CT Equipment list")
-    # for e in ct.Equipment:
-        # print(e["name"], e["count"])
+    print("CT Equipment list")
+    for e in ct.Equipment:
+        print(e["name"], e["count"])
 
-    # print("CT side equipment value: ", ct.EquipmentValue)
+    print("CT side equipment value: ", ct.EquipmentValue)
     # print("T side equipment value: ", t.EquipmentValue)
 
 

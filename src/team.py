@@ -1,7 +1,3 @@
-import cv2
-import numpy as np
-
-from equipment import Equipment
 
 class Team:
     def __init__(self):
