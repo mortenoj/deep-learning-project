@@ -1,0 +1,29 @@
+Example: Team 1 always CT, Team 2 always T
+From image: Type in map and CT or T side manually
+
+array[const_size]:
+map = "de_dust2" 
+team1worth = 5000,
+team1akcount = 3,
+team1m4a4count = 1;
+team1awpcount = 1,
+team1uspscount = 4,
+team1deaglecount = 1,
+team1flashes = 5,
+
+team2worth = 1000,
+team2akcount = 3,
+team2m4a4count = 1;
+team2awpcount = 1,
+team2uspscount = 4,
+team2deaglecount = 1,
+team2flashes = 5,
+etc etc
+
+
+Easiest example:
+
+array[3]:
+map = map,
+team1worth = $$$$,
+team2worth = $$$$

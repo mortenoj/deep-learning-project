@@ -12,3 +12,9 @@ class Team:
             self.totalWorth += equipment.worth
         
         return self.totalWorth
+
+    mainWeapons: 1, 6, 8, 9
+
+    utility: 1, 1, 1, 1
+    
+    smokeCount: 4
