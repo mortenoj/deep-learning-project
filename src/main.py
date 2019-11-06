@@ -48,7 +48,6 @@ def main():
     print("CT side equipment value: ", ct.EquipmentValue)
     # print("T side equipment value: ", t.EquipmentValue)
 
-
 def GetTeamEquipment(equipmentImage):
     with open("../public/icons/_data.json", 'r') as f:
         equipmentList = json.load(f)
@@ -58,7 +57,6 @@ def GetTeamEquipment(equipmentImage):
         elem["count"] = FindEquipmentInImage(equipmentImage, elem, True)
 
     return equipmentList
-
 
 def FindEquipmentInImage(image, equipment, debug = False):
     template = cv2.imread("../public/" + equipment["path"], 0)
