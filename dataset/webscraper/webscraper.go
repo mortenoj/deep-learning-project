@@ -6,11 +6,12 @@ import (
 	"time"
 
 	"github.com/gocolly/colly"
+	"github.com/mortenoj/deep-learning-project/dataset/utils"
 	"github.com/sirupsen/logrus"
 )
 
 // GetLinks scrapes hltv.org for download demo url
-func GetLinks(offset int) ([]string, error) {
+func GetLinks(offset int, requestLimit int) ([]string, error) {
 	var (
 		err     error
 		baseURL = "https://www.hltv.org/results"
@@ -31,16 +32,17 @@ func GetLinks(offset int) ([]string, error) {
 		return nil, err
 	}
 
-	return crawl(url, c, linkCollector)
+	return crawl(url, requestLimit, c, linkCollector)
 }
 
-func crawl(url string, c, linkCollector *colly.Collector) ([]string, error) {
+func crawl(url string, requestLimit int, c, linkCollector *colly.Collector) ([]string, error) {
 	var (
-		err     error
-		links   []string
-		visited []string
-		domain  = "https://www.hltv.org"
-		exit    bool
+		err      error
+		links    []string
+		visited  []string
+		domain   = "https://www.hltv.org"
+		exit     bool
+		requests = 1
 	)
 
 	handleErrors(c)
@@ -48,6 +50,7 @@ func crawl(url string, c, linkCollector *colly.Collector) ([]string, error) {
 
 	linkCollector.OnRequest(func(r *colly.Request) {
 		visited = append(visited, r.URL.String())
+		requests++
 	})
 
 	linkCollector.OnHTML(".stream-box", func(e *colly.HTMLElement) {
@@ -59,12 +62,13 @@ func crawl(url string, c, linkCollector *colly.Collector) ([]string, error) {
 
 	c.OnHTML(".result-con", func(e *colly.HTMLElement) {
 		band, ok := e.DOM.Find("a").Attr("href")
-		if !ok || band == "" || !strings.Contains(band, "/matches/") {
+
+		if !ok || exit || !strings.Contains(band, "/matches/") || utils.Contains(visited, domain+band) {
 			return
 		}
 
-		if contains(visited, domain+band) || exit {
-			return
+		if requests >= requestLimit {
+			exit = true
 		}
 
 		err = linkCollector.Visit(domain + band)
@@ -90,14 +94,4 @@ func handleErrors(c *colly.Collector) {
 	c.OnError(func(r *colly.Response, err error) {
 		fmt.Println("Request URL:", r.Request.URL, "failed with response:", string(r.Body), "\nError:", err)
 	})
-}
-
-func contains(arr []string, elem string) bool {
-	for _, e := range arr {
-		if e == elem {
-			return true
-		}
-	}
-
-	return false
 }

@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 	"os"
+	"path/filepath"
 
 	dem "github.com/markus-wa/demoinfocs-golang"
 	events "github.com/markus-wa/demoinfocs-golang/events"
+	"github.com/mortenoj/deep-learning-project/dataset/utils"
 	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
 	"github.com/sirupsen/logrus"
 )
@@ -14,17 +16,56 @@ import (
 func main() {
 	var err error
 
-	links, err := webscraper.GetLinks(0)
+	links, err := webscraper.GetLinks(0, 1)
 	if err != nil {
 		panic(err)
 	}
 
-	logrus.Info(links)
-	return
+	logrus.Infof("Available links: %v", links)
 
-	f, err := os.Open("demos/liquid-vs-astralis-m2-dust2.dem")
+	for _, downloadLink := range links {
+		err = handleDemoLink(downloadLink)
+		if err != nil {
+			panic(err)
+		}
+	}
+}
+
+func handleDemoLink(demoLink string) error {
+	rarPath := "demos/demo.rar"
+
+	err := utils.DownloadDemo(demoLink, rarPath)
 	if err != nil {
-		panic(err)
+		return err
+	}
+
+	files, err := utils.UnRar(rarPath, "demos")
+	if err != nil {
+		return nil
+	}
+
+	for _, file := range files {
+		err = extractDataset(file)
+		if err != nil {
+			return err
+		}
+	}
+
+	matches, err := filepath.Glob("demos/*.dem")
+	for _, file := range matches {
+		os.RemoveAll(file)
+	}
+
+	return nil
+}
+
+func extractDataset(filePath string) error {
+	return nil
+	var err error
+
+	f, err := os.Open(filePath)
+	if err != nil {
+		return err
 	}
 	defer f.Close()
 
@@ -99,6 +140,8 @@ func main() {
 	// Parse to end
 	err = p.ParseToEnd()
 	if err != nil {
-		panic(err)
+		return nil
 	}
+
+	return nil
 }
