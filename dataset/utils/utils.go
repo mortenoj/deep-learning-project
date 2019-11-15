@@ -17,13 +17,7 @@ import (
 
 // UnRar unrars file
 func UnRar(src string, dest string) ([]string, error) {
-	rar := archiver.Rar{
-		MkdirAll:               true,
-		OverwriteExisting:      false,
-		ImplicitTopLevelFolder: false,
-	}
-
-	err := rar.Unarchive(src, dest)
+	err := archiver.Unarchive(src, dest)
 	if err != nil {
 		return nil, err
 	}

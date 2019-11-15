@@ -41,7 +41,7 @@ func handleDemoLink(demoLink string) error {
 
 	files, err := utils.UnRar(rarPath, "demos")
 	if err != nil {
-		return nil
+		return err
 	}
 
 	for _, file := range files {
@@ -60,7 +60,6 @@ func handleDemoLink(demoLink string) error {
 }
 
 func extractDataset(filePath string) error {
-	return nil
 	var err error
 
 	f, err := os.Open(filePath)
