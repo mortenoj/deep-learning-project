@@ -6,10 +6,22 @@ import (
 
 	dem "github.com/markus-wa/demoinfocs-golang"
 	events "github.com/markus-wa/demoinfocs-golang/events"
+	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
+	"github.com/sirupsen/logrus"
 )
 
 // Run like this: go run print_kills.go
 func main() {
+	var err error
+
+	links, err := webscraper.GetLinks(0)
+	if err != nil {
+		panic(err)
+	}
+
+	logrus.Info(links)
+	return
+
 	f, err := os.Open("demos/liquid-vs-astralis-m2-dust2.dem")
 	if err != nil {
 		panic(err)
@@ -64,7 +76,7 @@ func main() {
 
 	// RoundEndOffical is the most accurate and gives what we want, but it does not give the result of the last round
 	// However we can know who won by the team that had the highest Score last
-	p.RegisterEventHandler(func(e events.RoundEndOfficial){
+	p.RegisterEventHandler(func(e events.RoundEndOfficial) {
 		gs := p.GameState()
 
 		if gs.IsMatchStarted() != true {
@@ -72,7 +84,6 @@ func main() {
 		}
 		ct := gs.TeamCounterTerrorists()
 		t := gs.TeamTerrorists()
-
 
 		if t.Score > tScoreRoundStart {
 			fmt.Printf("Terrorists won the round, score is now: T:%d - CT: %d\n", t.Score, ct.Score)
