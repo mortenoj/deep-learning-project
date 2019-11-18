@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
+	"github.com/mortenoj/deep-learning-project/dataset/inventory"
 	"os"
 	"path/filepath"
 
 	dem "github.com/markus-wa/demoinfocs-golang"
 	events "github.com/markus-wa/demoinfocs-golang/events"
 	"github.com/mortenoj/deep-learning-project/dataset/utils"
-	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
-	"github.com/sirupsen/logrus"
 )
 
 // Run like this: go run print_kills.go
 func main() {
+	/*
 	var err error
 
 	links, err := webscraper.GetLinks(0, 1)
@@ -29,6 +29,15 @@ func main() {
 			panic(err)
 		}
 	}
+	*/
+
+	inventory.Init()
+
+
+
+
+	extractDataset("demos/fnatic-vs-vitality-m1-nuke.dem")
+
 }
 
 func handleDemoLink(demoLink string) error {
@@ -90,18 +99,32 @@ func extractDataset(filePath string) error {
 		tScoreRoundStart = t.Score
 		ctScoreRoundStart = ct.Score
 
-		serverPlayers := ct.Members()
-		for _, p := range t.Members() {
-			serverPlayers = append(serverPlayers, p)
-		}
+		ctPlayers := ct.Members()
+		tPlayers := t.Members()
+
+		ctEquipment := inventory.GetEquipmentList()
+		tEquipment := inventory.GetEquipmentList()
 
 		// TODO: Possibly make a struct of all weapons for putting this into a JSON that matches the JSON output from python
-		for _, player := range serverPlayers {
+		for _, player := range ctPlayers {
 			//fmt.Printf("%v \n", player.Weapons())
 			//fmt.Printf("%v \n", player.RawWeapons)
 			for _, weapon := range player.Weapons() {
-				fmt.Printf("%v \n", weapon.String())
+				ctEquipment = inventory.AddToList(ctEquipment, weapon.Weapon)
 			}
+		}
+
+		for _, player := range tPlayers{
+			for _, weapon := range player.Weapons() {
+				tEquipment = inventory.AddToList(tEquipment, weapon.Weapon)
+			}
+		}
+
+		for e, k := range ctEquipment{
+			fmt.Printf("CT Equipment: %d %s %d \n", e, k.Name, k.Count)
+		}
+		for e, k := range tEquipment{
+			fmt.Printf("T Equipment: %d %s %d \n", e, k.Name, k.Count)
 		}
 
 		//ctEquipment := ct.FreezeTimeEndEquipmentValue()
@@ -131,10 +154,12 @@ func extractDataset(filePath string) error {
 			fmt.Printf("Counter-Terrorists won the round, score is now: T:%d - CT: %d\n", t.Score, ct.Score)
 		}
 
-		// TODO:
 		// Save round winner in a array or something e.g. 1 = T win, 0 = CT win
 		// Save these to file when everything is done parsing
 	})
+
+	// TODO: Catch event for when game is totally over?
+	//  Or no need as that will be when parsing is done?
 
 	// Parse to end
 	err = p.ParseToEnd()

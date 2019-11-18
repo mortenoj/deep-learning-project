@@ -9,7 +9,6 @@ import (
 	"os"
 	"path/filepath"
 	"time"
-	"weatherhandler/utils"
 
 	"github.com/mholt/archiver"
 	"github.com/sirupsen/logrus"
@@ -71,7 +70,7 @@ func WriteResponseToFile(body io.Reader, fileName string) error {
 
 // DownloadDemo downloads a demo and returns the reader
 func DownloadDemo(url, filepath string) error {
-	if utils.FileExists(filepath) {
+	if FileExists(filepath) {
 		logrus.Info("There is already a demo file. Skipping...")
 		return nil
 	}
