@@ -1,4 +1,6 @@
 .DS_Store
+.idea
 **/.DS_Store
 **/*.dem
 **/*.rar
+dataset/output/*.json
