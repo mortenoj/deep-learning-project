@@ -50,15 +50,18 @@ for features,label in test_set:
 
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Flatten())
-model.add(tf.keras.layers.Dense(512, activation=tf.nn.relu))
-model.add(tf.keras.layers.Dense(512, activation=tf.nn.relu))
+model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
+model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
+# model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
+# model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
 model.add(tf.keras.layers.Dense(2, activation=tf.nn.softmax))
 
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
+              # loss='binary_crossentropy',
               metrics=['accuracy'])
 
-model.fit(train_x, train_y, epochs=10)
+model.fit(train_x, train_y, epochs=20)
 
 print("\nEvaluating...\n")
 val_loss, val_acc = model.evaluate(test_x, test_y)
@@ -78,7 +81,4 @@ for i, pred in enumerate(predictions):
         fault += 1
 
 print("Actual accurancy: ", correct / len(test_x))
-
-
-
 
