@@ -31,7 +31,6 @@ def create_dataset(path):
                 dataset.append([m_round, match_round["TerroristsWon"]])
     return dataset
 
-
 training_data = create_dataset("../dataset/output/*.json")
 test_set = create_dataset("../dataset/output/testset/*.json")
 
@@ -51,8 +50,8 @@ for features,label in test_set:
 
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Flatten())
-model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))
-model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))
+model.add(tf.keras.layers.Dense(512, activation=tf.nn.relu))
+model.add(tf.keras.layers.Dense(512, activation=tf.nn.relu))
 model.add(tf.keras.layers.Dense(2, activation=tf.nn.softmax))
 
 model.compile(optimizer='adam',
@@ -69,9 +68,16 @@ print("evaluated accuracy: ", val_acc)
 print("\n\n")
 
 predictions = model.predict(test_x)
-print(np.argmax(predictions[45]))
-print(test_y[45])
 
+correct = 0
+fault = 0
+for i, pred in enumerate(predictions):
+    if np.argmax(pred) == test_y[i]:
+        correct += 1
+    else:
+        fault += 1
+
+print("Actual accurancy: ", correct / len(test_x))
 
 
 

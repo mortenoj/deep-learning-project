@@ -5,6 +5,7 @@ import (
 	"os"
 	"path/filepath"
 	"sync"
+	"time"
 
 	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
 	"github.com/sirupsen/logrus"
@@ -21,26 +22,38 @@ func main() {
 	//var err error
 	inventory.Init()
 
-	var wg sync.WaitGroup
+	var (
+		wg    sync.WaitGroup
+		links []string
+		err   error
+	)
+
 	errChannel := make(chan error, 1)
 	finished := make(chan bool, 1)
 
-	links, err := webscraper.GetLinks(100, 3)
-	if err != nil {
-		panic(err)
-	}
-	logrus.Infof("Available links: %v", len(links))
+	for i := 0; i < 2; i++ {
+		l, err := webscraper.GetLinks(40*i, 40)
+		if err != nil {
+			panic(err)
+		}
 
-	chunks := utils.ChunkStrings(links, 3)
+		links = append(links, l...)
+
+		time.Sleep(time.Second * 10)
+	}
+
+	logrus.Info("Available links: ", len(links))
+
+	chunks := utils.ChunkStrings(links, 2)
 
 	wg.Add(len(links))
 	for i, links := range chunks {
-		go func(wg *sync.WaitGroup, key int) {
-			err = handleDemoLinks(links, key)
+		go func(links []string, wg *sync.WaitGroup, key int) {
+			err = handleDemoLinks(links, key+1)
 			if err != nil {
 				panic(err)
 			}
-		}(&wg, i)
+		}(links, &wg, i)
 	}
 
 	go func() {
@@ -62,7 +75,6 @@ func main() {
 
 func handleDemoLinks(links []string, key int) error {
 	for _, demoLink := range links {
-		fmt.Println(key)
 		//rarPath := "demos/demo.rar"
 		rarPath := fmt.Sprintf("demos/%d/demos.rar", key)
 		os.MkdirAll(fmt.Sprintf("demos/%d", key), os.ModePerm)
@@ -109,7 +121,6 @@ func extractDataset(filePath string) error {
 	var roundInfo inventory.RoundInfo
 
 	tScoreRoundStart := 0
-	ctScoreRoundStart := 0
 
 	// Register handler on kill events
 	//p.RegisterEventHandler(func(e events.Kill) {
@@ -127,7 +138,6 @@ func extractDataset(filePath string) error {
 		t := gs.TeamTerrorists()
 
 		tScoreRoundStart = t.Score
-		ctScoreRoundStart = ct.Score
 
 		ctPlayers := ct.Members()
 		tPlayers := t.Members()
@@ -184,6 +194,8 @@ func extractDataset(filePath string) error {
 			roundInfo.TerroristsWon = false
 		}
 
+		roundInfo.Map = p.Header().MapName
+
 		gameInfo = append(gameInfo, roundInfo)
 
 		// Save round winner in a array or something e.g. 1 = T win, 0 = CT win
@@ -205,6 +217,8 @@ func extractDataset(filePath string) error {
 	} else {
 		roundInfo.TerroristsWon = false
 	}
+
+	roundInfo.Map = p.Header().MapName
 	gameInfo = append(gameInfo, roundInfo)
 
 	// TODO: Caused some errors, need to be looked into, not vital though

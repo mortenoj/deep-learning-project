@@ -23,11 +23,16 @@ func GetLinks(offset int, requestLimit int) ([]string, error) {
 
 	limitRule := &colly.LimitRule{
 		DomainGlob:  ".*hltv.*",
-		Delay:       1000 * time.Millisecond,
-		RandomDelay: 1000 * time.Millisecond,
+		Delay:       2000 * time.Millisecond,
+		RandomDelay: 2000 * time.Millisecond,
 	}
 
 	err = linkCollector.Limit(limitRule)
+	if err != nil {
+		return nil, err
+	}
+
+	err = c.Limit(limitRule)
 	if err != nil {
 		return nil, err
 	}

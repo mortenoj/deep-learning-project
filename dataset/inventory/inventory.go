@@ -22,6 +22,7 @@ type RoundInfo struct {
 	TEquipment       []Equipment
 	TSideTotalWorth  int
 	TerroristsWon    bool
+	Map              string
 }
 
 var equipmentCount int
