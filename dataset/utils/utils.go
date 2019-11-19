@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"math/rand"
 	"net"
 	"net/http"
 	"os"
@@ -13,6 +14,18 @@ import (
 	"github.com/mholt/archiver"
 	"github.com/sirupsen/logrus"
 )
+
+// RandomString func generates random string of length n
+func RandomString(n int) string {
+	rand.Seed(time.Now().UnixNano())
+
+	letters := []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+	b := make([]rune, n)
+	for i := range b {
+		b[i] = letters[rand.Intn(len(letters))]
+	}
+	return string(b)
+}
 
 // UnRar unrars file
 func UnRar(src string, dest string) ([]string, error) {

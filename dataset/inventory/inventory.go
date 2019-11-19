@@ -3,23 +3,25 @@ package inventory
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/markus-wa/demoinfocs-golang/common"
 	"io/ioutil"
-	"strconv"
+	"os"
+
+	"github.com/markus-wa/demoinfocs-golang/common"
+	"github.com/mortenoj/deep-learning-project/dataset/utils"
 )
 
-type Equipment struct{
-	Name string
+type Equipment struct {
+	Name  string
 	Count int
 }
 
 // TODO: We could possibly also have info like what map etc
-type RoundInfo struct{
-	CTEquipment []Equipment
+type RoundInfo struct {
+	CTEquipment      []Equipment
 	CTSideTotalWorth int
-	TEquipment []Equipment
-	TSideTotalWorth int
-	TerroristsWon bool
+	TEquipment       []Equipment
+	TSideTotalWorth  int
+	TerroristsWon    bool
 }
 
 var equipmentCount int
@@ -30,35 +32,36 @@ var equipmentKeys map[common.EquipmentElement]int // To be able to easier insert
 //TODO: Make sure we have same array structure for image output as for this output,
 // in regards to making the array indices the same for every equipment type
 // Maps seem to have random order? Maybe need to hardcode this instead
-func Init(){
+func Init() {
 	resultFiles = 0
 	initEquipment()
 }
 
-func GetEquipmentList() []Equipment{
+func GetEquipmentList() []Equipment {
 	returnList := make([]Equipment, len(equipmentList))
 	copy(returnList, equipmentList)
 
 	return returnList
 }
 
-func WriteToJSON(gameInfo []RoundInfo, fileName string){
+func WriteToJSON(gameInfo []RoundInfo, fileName string) {
 	file, _ := json.MarshalIndent(gameInfo, "", " ")
 	resultFiles += 1
-	filePath := "output/results_" + strconv.Itoa(resultFiles) + "_" + fileName + ".json"
+	os.MkdirAll("output", os.ModePerm)
+	filePath := "output/results_" + utils.RandomString(6) + "_" + fileName + ".json"
 	_ = ioutil.WriteFile(filePath, file, 0644)
 
 	fmt.Printf("Wrote output to " + filePath + "\n")
 }
 
-func AddToList(list []Equipment, e common.EquipmentElement) []Equipment{
+func AddToList(list []Equipment, e common.EquipmentElement) []Equipment {
 	list[equipmentKeys[e]].Count += 1
 	return list
 }
 
 // Using a hardcoded array because we don't want the data to lie randomly everytime like it does with a map
 
-func initEquipment(){
+func initEquipment() {
 	equipmentKeys = make(map[common.EquipmentElement]int)
 	AddEquipment("AK-47", common.EqAK47)
 	AddEquipment("AUG", common.EqAUG)
@@ -110,11 +113,9 @@ func initEquipment(){
 	AddEquipment("UNKNOWN", common.EqUnknown)
 }
 
-func AddEquipment(name string, elem common.EquipmentElement){
-	newEquipment := Equipment{ Name: name, Count: 0,}
+func AddEquipment(name string, elem common.EquipmentElement) {
+	newEquipment := Equipment{Name: name, Count: 0}
 	equipmentList = append(equipmentList, newEquipment)
 	equipmentKeys[elem] = equipmentCount
 	equipmentCount += 1
 }
-
-

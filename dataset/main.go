@@ -1,6 +1,9 @@
 package main
 
 import (
+	"os"
+	"path/filepath"
+
 	dem "github.com/markus-wa/demoinfocs-golang"
 	"github.com/markus-wa/demoinfocs-golang/common"
 	events "github.com/markus-wa/demoinfocs-golang/events"
@@ -8,8 +11,6 @@ import (
 	"github.com/mortenoj/deep-learning-project/dataset/utils"
 	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
 	"github.com/sirupsen/logrus"
-	"os"
-	"path/filepath"
 )
 
 // Run like this: go run print_kills.go
@@ -18,7 +19,7 @@ func main() {
 
 	inventory.Init()
 
-	links, err := webscraper.GetLinks(0, 1)
+	links, err := webscraper.GetLinks(10, 2)
 	if err != nil {
 		panic(err)
 	}
@@ -34,7 +35,6 @@ func main() {
 
 	// Debug TODO: Remove
 	//extractDataset("demos/fnatic-vs-vitality-m1-nuke.dem")
-
 }
 
 func handleDemoLink(demoLink string) error {
@@ -57,7 +57,7 @@ func handleDemoLink(demoLink string) error {
 		}
 	}
 
-	matches, err := filepath.Glob("demos/*.dem")
+	matches, err := filepath.Glob("demos/*")
 	for _, file := range matches {
 		os.RemoveAll(file)
 	}
@@ -113,22 +113,22 @@ func extractDataset(filePath string) error {
 			if player.HasDefuseKit {
 				ctEquipment = inventory.AddToList(ctEquipment, common.EqDefuseKit)
 			}
-			if player.Armor > 0{
+			if player.Armor > 0 {
 				ctEquipment = inventory.AddToList(ctEquipment, common.EqKevlar)
 			}
-			if player.HasHelmet{
+			if player.HasHelmet {
 				ctEquipment = inventory.AddToList(ctEquipment, common.EqHelmet)
 			}
 		}
 
-		for _, player := range tPlayers{
+		for _, player := range tPlayers {
 			for _, weapon := range player.Weapons() {
 				tEquipment = inventory.AddToList(tEquipment, weapon.Weapon)
 			}
-			if player.Armor > 0{
+			if player.Armor > 0 {
 				tEquipment = inventory.AddToList(tEquipment, common.EqKevlar)
 			}
-			if player.HasHelmet{
+			if player.HasHelmet {
 				tEquipment = inventory.AddToList(tEquipment, common.EqHelmet)
 			}
 		}
@@ -171,7 +171,7 @@ func extractDataset(filePath string) error {
 	gs := p.GameState()
 	ct := gs.TeamCounterTerrorists()
 	t := gs.TeamTerrorists()
-	if t.Score > ct.Score{
+	if t.Score > ct.Score {
 		roundInfo.TerroristsWon = true
 	} else {
 		roundInfo.TerroristsWon = false
