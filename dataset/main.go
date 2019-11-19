@@ -1,6 +1,8 @@
 package main
 
 import (
+	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
+	"github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
 
@@ -9,8 +11,6 @@ import (
 	events "github.com/markus-wa/demoinfocs-golang/events"
 	"github.com/mortenoj/deep-learning-project/dataset/inventory"
 	"github.com/mortenoj/deep-learning-project/dataset/utils"
-	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
-	"github.com/sirupsen/logrus"
 )
 
 // Run like this: go run print_kills.go
@@ -18,8 +18,7 @@ func main() {
 	//var err error
 
 	inventory.Init()
-
-	links, err := webscraper.GetLinks(10, 2)
+	links, err := webscraper.GetLinks(0, 1)
 	if err != nil {
 		panic(err)
 	}
@@ -32,7 +31,6 @@ func main() {
 			panic(err)
 		}
 	}
-
 	// Debug TODO: Remove
 	//extractDataset("demos/fnatic-vs-vitality-m1-nuke.dem")
 }

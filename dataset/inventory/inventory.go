@@ -55,6 +55,10 @@ func WriteToJSON(gameInfo []RoundInfo, fileName string) {
 }
 
 func AddToList(list []Equipment, e common.EquipmentElement) []Equipment {
+	if e == common.EqWorld || e == common.EqBomb || e == common.EqKnife || e == common.EqUnknown {
+		return list
+	}
+
 	list[equipmentKeys[e]].Count += 1
 	return list
 }
@@ -67,7 +71,6 @@ func initEquipment() {
 	AddEquipment("AUG", common.EqAUG)
 	AddEquipment("AWP", common.EqAWP)
 	AddEquipment("PP-Bizon", common.EqBizon)
-	AddEquipment("C4", common.EqBomb)
 	AddEquipment("Desert Eagle", common.EqDeagle)
 	AddEquipment("Decoy Grenade", common.EqDecoy)
 	AddEquipment("Dual Berettas", common.EqDualBerettas)
@@ -104,13 +107,10 @@ func initEquipment() {
 	AddEquipment("M4A1", common.EqM4A1)
 	AddEquipment("CZ75 Auto", common.EqCZ)
 	AddEquipment("USP-S", common.EqUSP)
-	AddEquipment("World", common.EqWorld)
 	AddEquipment("R8 Revolver", common.EqRevolver)
 	AddEquipment("Kevlar Vest", common.EqKevlar)
 	AddEquipment("Kevlar + Helmet", common.EqHelmet)
 	AddEquipment("Defuse Kit", common.EqDefuseKit)
-	AddEquipment("Knife", common.EqKnife)
-	AddEquipment("UNKNOWN", common.EqUnknown)
 }
 
 func AddEquipment(name string, elem common.EquipmentElement) {
