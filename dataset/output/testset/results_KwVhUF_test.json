@@ -1,0 +1,9027 @@
+[
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 0
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 4
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "CTSideTotalWorth": 3600,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 1
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 4
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 4
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 4250,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 2
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 1
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 2
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 2
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 4
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 3
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 1
+   }
+  ],
+  "CTSideTotalWorth": 23050,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 2
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 3
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 2
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 2
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 1
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 3
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 3
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 13500,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 1
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 4
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 2
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 1
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 1
+   },
+   {
+    "Name": "USP-S",
+    "Count": 2
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 4
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 4
+   }
+  ],
+  "CTSideTotalWorth": 28650,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 2
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 4
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 4
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 1
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 7350,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 1
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 1
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 3
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 5
+   }
+  ],
+  "CTSideTotalWorth": 32250,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 3
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 23950,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 3
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 1
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 2
+   }
+  ],
+  "CTSideTotalWorth": 25200,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25250,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 1
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "CTSideTotalWorth": 1200,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25250,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 4
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 5
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "CTSideTotalWorth": 24150,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 3
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 2
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 27250,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 2
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 1
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 2
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 2
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 3
+   }
+  ],
+  "CTSideTotalWorth": 22600,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25150,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 1
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 3
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 4
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 2
+   }
+  ],
+  "CTSideTotalWorth": 24750,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25150,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 2
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 3
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 2
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 4
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 1
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 2
+   }
+  ],
+  "CTSideTotalWorth": 21600,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25250,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 1
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 4
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 2
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "CTSideTotalWorth": 5100,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 4
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 2
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25450,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 4
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 1
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 2
+   }
+  ],
+  "CTSideTotalWorth": 28250,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 3
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 3
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25700,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 3
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 3
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 4
+   }
+  ],
+  "CTSideTotalWorth": 29700,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 4
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 27350,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 1
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 2
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 4
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 4
+   }
+  ],
+  "CTSideTotalWorth": 30650,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 4
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 27250,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 1
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 4
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 2
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 2
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 2
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 1
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 1
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "CTSideTotalWorth": 23150,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 1
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 3
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 25550,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 0
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 4
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 4
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 1
+   }
+  ],
+  "CTSideTotalWorth": 4150,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 3
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 3
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 2
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 2
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 4200,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 4
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 2
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 1
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 3
+   },
+   {
+    "Name": "USP-S",
+    "Count": 1
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 4
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 4
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "CTSideTotalWorth": 10400,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 1
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 4
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 1
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 2
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 4
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 2
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 2
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 2
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 17750,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 1
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 2
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 1
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 2
+   },
+   {
+    "Name": "USP-S",
+    "Count": 1
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 2
+   }
+  ],
+  "CTSideTotalWorth": 23900,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 3
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 2
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 2
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 1
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 1
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 2
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 13950,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 1
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 2
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 1
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 3
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 3
+   }
+  ],
+  "CTSideTotalWorth": 27650,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 0
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 1000,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 1
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 1
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 2
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 1
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 1
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 3
+   },
+   {
+    "Name": "USP-S",
+    "Count": 1
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 3
+   }
+  ],
+  "CTSideTotalWorth": 28050,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 22550,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 3
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 2
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 1
+   },
+   {
+    "Name": "USP-S",
+    "Count": 4
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 5
+   }
+  ],
+  "CTSideTotalWorth": 30000,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 2
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 0
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 3
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 0
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 2000,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 2
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 1
+   },
+   {
+    "Name": "USP-S",
+    "Count": 4
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 5
+   }
+  ],
+  "CTSideTotalWorth": 28900,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 4
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 4
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 3
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 4
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 24250,
+  "TerroristsWon": true
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 4
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 5
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 4
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 4
+   }
+  ],
+  "CTSideTotalWorth": 31300,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 1
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 4
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 2
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 5
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 3
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 27000,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 1
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 4
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 1
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 3
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 5
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 5
+   }
+  ],
+  "CTSideTotalWorth": 28700,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 2
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 5
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 1
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 5
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 1
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 3
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 5
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 1
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 5
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 4
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 19800,
+  "TerroristsWon": false
+ },
+ {
+  "CTEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 1
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 0
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 1
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 0
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 1
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 1
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 2
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 2
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 2
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 2
+   }
+  ],
+  "CTSideTotalWorth": 32800,
+  "TEquipment": [
+   {
+    "Name": "AK-47",
+    "Count": 0
+   },
+   {
+    "Name": "AUG",
+    "Count": 0
+   },
+   {
+    "Name": "AWP",
+    "Count": 0
+   },
+   {
+    "Name": "PP-Bizon",
+    "Count": 0
+   },
+   {
+    "Name": "Desert Eagle",
+    "Count": 0
+   },
+   {
+    "Name": "Decoy Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "Dual Berettas",
+    "Count": 0
+   },
+   {
+    "Name": "FAMAS",
+    "Count": 0
+   },
+   {
+    "Name": "Five-SeveN",
+    "Count": 0
+   },
+   {
+    "Name": "Flashbang",
+    "Count": 0
+   },
+   {
+    "Name": "G3SG1",
+    "Count": 0
+   },
+   {
+    "Name": "Galil AR",
+    "Count": 0
+   },
+   {
+    "Name": "Glock-18",
+    "Count": 1
+   },
+   {
+    "Name": "HE Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "P2000",
+    "Count": 0
+   },
+   {
+    "Name": "Incendiary Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "M249",
+    "Count": 0
+   },
+   {
+    "Name": "M4A4",
+    "Count": 0
+   },
+   {
+    "Name": "MAC-10",
+    "Count": 1
+   },
+   {
+    "Name": "MAG-7",
+    "Count": 0
+   },
+   {
+    "Name": "Molotov",
+    "Count": 0
+   },
+   {
+    "Name": "MP7",
+    "Count": 0
+   },
+   {
+    "Name": "MP5-SD",
+    "Count": 0
+   },
+   {
+    "Name": "MP9",
+    "Count": 0
+   },
+   {
+    "Name": "Negev",
+    "Count": 0
+   },
+   {
+    "Name": "Nova",
+    "Count": 0
+   },
+   {
+    "Name": "p250",
+    "Count": 0
+   },
+   {
+    "Name": "P90",
+    "Count": 0
+   },
+   {
+    "Name": "Sawed-Off",
+    "Count": 0
+   },
+   {
+    "Name": "SCAR-20",
+    "Count": 0
+   },
+   {
+    "Name": "SG 553",
+    "Count": 0
+   },
+   {
+    "Name": "Smoke Grenade",
+    "Count": 0
+   },
+   {
+    "Name": "SSG 08",
+    "Count": 0
+   },
+   {
+    "Name": "Zeus x27",
+    "Count": 0
+   },
+   {
+    "Name": "Tec-9",
+    "Count": 0
+   },
+   {
+    "Name": "UMP-45",
+    "Count": 0
+   },
+   {
+    "Name": "XM1014",
+    "Count": 0
+   },
+   {
+    "Name": "M4A1",
+    "Count": 0
+   },
+   {
+    "Name": "CZ75 Auto",
+    "Count": 0
+   },
+   {
+    "Name": "USP-S",
+    "Count": 0
+   },
+   {
+    "Name": "R8 Revolver",
+    "Count": 0
+   },
+   {
+    "Name": "Kevlar Vest",
+    "Count": 1
+   },
+   {
+    "Name": "Kevlar + Helmet",
+    "Count": 1
+   },
+   {
+    "Name": "Defuse Kit",
+    "Count": 0
+   }
+  ],
+  "TSideTotalWorth": 19700,
+  "TerroristsWon": false
+ }
+]

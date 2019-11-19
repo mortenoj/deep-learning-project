@@ -1,10 +1,13 @@
 package main
 
 import (
-	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
-	"github.com/sirupsen/logrus"
+	"fmt"
 	"os"
 	"path/filepath"
+	"sync"
+
+	"github.com/mortenoj/deep-learning-project/dataset/webscraper"
+	"github.com/sirupsen/logrus"
 
 	dem "github.com/markus-wa/demoinfocs-golang"
 	"github.com/markus-wa/demoinfocs-golang/common"
@@ -16,48 +19,76 @@ import (
 // Run like this: go run print_kills.go
 func main() {
 	//var err error
-
 	inventory.Init()
-	links, err := webscraper.GetLinks(0, 1)
+
+	var wg sync.WaitGroup
+	errChannel := make(chan error, 1)
+	finished := make(chan bool, 1)
+
+	links, err := webscraper.GetLinks(100, 3)
 	if err != nil {
 		panic(err)
 	}
+	logrus.Infof("Available links: %v", len(links))
 
-	logrus.Infof("Available links: %v", links)
+	chunks := utils.ChunkStrings(links, 3)
 
-	for _, downloadLink := range links {
-		err = handleDemoLink(downloadLink)
+	wg.Add(len(links))
+	for i, links := range chunks {
+		go func(wg *sync.WaitGroup, key int) {
+			err = handleDemoLinks(links, key)
+			if err != nil {
+				panic(err)
+			}
+		}(&wg, i)
+	}
+
+	go func() {
+		wg.Wait()
+		close(finished)
+	}()
+
+	select {
+	case <-finished:
+	case err := <-errChannel:
 		if err != nil {
 			panic(err)
 		}
 	}
+
 	// Debug TODO: Remove
 	//extractDataset("demos/fnatic-vs-vitality-m1-nuke.dem")
 }
 
-func handleDemoLink(demoLink string) error {
-	rarPath := "demos/demo.rar"
+func handleDemoLinks(links []string, key int) error {
+	for _, demoLink := range links {
+		fmt.Println(key)
+		//rarPath := "demos/demo.rar"
+		rarPath := fmt.Sprintf("demos/%d/demos.rar", key)
+		os.MkdirAll(fmt.Sprintf("demos/%d", key), os.ModePerm)
 
-	err := utils.DownloadDemo(demoLink, rarPath)
-	if err != nil {
-		return err
-	}
-
-	files, err := utils.UnRar(rarPath, "demos")
-	if err != nil {
-		return err
-	}
-
-	for _, file := range files {
-		err = extractDataset(file)
+		err := utils.DownloadDemo(demoLink, rarPath)
 		if err != nil {
 			return err
 		}
-	}
 
-	matches, err := filepath.Glob("demos/*")
-	for _, file := range matches {
-		os.RemoveAll(file)
+		files, err := utils.UnRar(rarPath, fmt.Sprintf("demos/%d", key))
+		if err != nil {
+			return err
+		}
+
+		for _, file := range files {
+			err = extractDataset(file)
+			if err != nil {
+				return err
+			}
+		}
+
+		matches, err := filepath.Glob(fmt.Sprintf("demos/%d/*", key))
+		for _, file := range matches {
+			os.RemoveAll(file)
+		}
+
 	}
 
 	return nil

@@ -15,6 +15,20 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
+// ChunkStrings chunks based on cores
+func ChunkStrings(array []string, numChunks int) [][]string {
+	var divided [][]string
+	chunkSize := (len(array) + numChunks - 1) / numChunks
+	for i := 0; i < len(array); i += chunkSize {
+		end := i + chunkSize
+		if end > len(array) {
+			end = len(array)
+		}
+		divided = append(divided, array[i:end])
+	}
+	return divided
+}
+
 // RandomString func generates random string of length n
 func RandomString(n int) string {
 	rand.Seed(time.Now().UnixNano())
