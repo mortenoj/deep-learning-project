@@ -152,9 +152,9 @@ def main():
     (train_x, train_y) = create_dataset("../dataset/output/*.json")
     (val_x, val_y) = create_dataset("../dataset/output/testset/*.json")
 
-    # train_model(train_x, train_y, val_x, val_y)
+    train_model(train_x, train_y, val_x, val_y)
     # parameter_optimization(train_x, train_y)
-    parameter_optimization(val_x, val_y)
+    # parameter_optimization(val_x, val_y)
 
 if __name__ == "__main__":
     main()

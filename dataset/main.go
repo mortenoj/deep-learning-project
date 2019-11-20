@@ -28,6 +28,11 @@ func main() {
 		err   error
 	)
 
+	matches, err := filepath.Glob("demos/*")
+	for _, file := range matches {
+		os.RemoveAll(file)
+	}
+
 	errChannel := make(chan error, 1)
 	finished := make(chan bool, 1)
 
