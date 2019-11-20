@@ -1,9 +1,10 @@
-import tensorflow.keras as keras
-import tensorflow as tf
-import numpy as np
 import json
 import random
 import glob
+
+import tensorflow.keras as keras
+import tensorflow as tf
+import numpy as np
 
 
 def create_dataset(path):
@@ -31,54 +32,62 @@ def create_dataset(path):
                 dataset.append([m_round, match_round["TerroristsWon"]])
     return dataset
 
-training_data = create_dataset("../dataset/output/*.json")
-test_set = create_dataset("../dataset/output/testset/*.json")
+def create_model():
+    model = tf.keras.models.Sequential()
+    model.add(tf.keras.layers.Flatten())
+    model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
+    model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
+    # model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
+    # model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
+    model.add(tf.keras.layers.Dense(2, activation=tf.nn.softmax))
 
-random.shuffle(training_data)
+    model.compile(optimizer='adam',
+                  loss='sparse_categorical_crossentropy',
+                  # loss='binary_crossentropy',
+                  metrics=['accuracy'])
+    return model
 
-train_x = []
-train_y = []
-for features,label in training_data:
-    train_x.append(features)
-    train_y.append(label)
+def main():
+    training_data = create_dataset("../dataset/output/*.json")
+    test_set = create_dataset("../dataset/output/testset/*.json")
 
-test_x = []
-test_y = []
-for features,label in test_set:
-    test_x.append(features)
-    test_y.append(label)
+    random.shuffle(training_data)
 
-model = tf.keras.models.Sequential()
-model.add(tf.keras.layers.Flatten())
-model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
-model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
-# model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
-# model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
-model.add(tf.keras.layers.Dense(2, activation=tf.nn.softmax))
+    train_x = []
+    train_y = []
+    for features, label in training_data:
+        train_x.append(features)
+        train_y.append(label)
 
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              # loss='binary_crossentropy',
-              metrics=['accuracy'])
+    test_x = []
+    test_y = []
+    for features, label in test_set:
+        test_x.append(features)
+        test_y.append(label)
 
-model.fit(train_x, train_y, epochs=20)
+    model = create_model()
 
-print("\nEvaluating...\n")
-val_loss, val_acc = model.evaluate(test_x, test_y)
-print("evaluated loss: ", val_loss)
-print("evaluated accuracy: ", val_acc)
+    model.fit(train_x, train_y, epochs=20)
 
-print("\n\n")
+    print("\nEvaluating...\n")
+    val_loss, val_acc = model.evaluate(test_x, test_y)
+    print("evaluated loss: ", val_loss)
+    print("evaluated accuracy: ", val_acc)
 
-predictions = model.predict(test_x)
+    print("\n\n")
 
-correct = 0
-fault = 0
-for i, pred in enumerate(predictions):
-    if np.argmax(pred) == test_y[i]:
-        correct += 1
-    else:
-        fault += 1
+    predictions = model.predict(test_x)
 
-print("Actual accurancy: ", correct / len(test_x))
+    correct = 0
+    fault = 0
+    for i, pred in enumerate(predictions):
+        if np.argmax(pred) == test_y[i]:
+            correct += 1
+        else:
+            fault += 1
 
+    print("Actual accurancy: ", correct / len(test_x))
+
+
+if __name__ == "__main__":
+    main()
