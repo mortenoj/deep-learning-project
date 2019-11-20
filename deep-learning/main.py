@@ -8,14 +8,15 @@ import numpy as np
 
 
 def create_dataset(path):
+    """Creates a dataset from the json data in path"""
+
     t_max_worth = 42750
     ct_max_worth = 44750
-
     dataset = []
+
     for filename in glob.glob(path):
         with open(filename) as json_file:
             data = json.load(json_file)
-
             for match_round in data:
                 if match_round["CTEquipment"] is None or match_round["TEquipment"] is None:
                     continue
@@ -30,9 +31,28 @@ def create_dataset(path):
                     m_round.append(item["Count"] / 5)
 
                 dataset.append([m_round, match_round["TerroristsWon"]])
-    return dataset
+
+    random.shuffle(dataset)
+    return process_dataset(dataset)
+
+def process_dataset(dataset):
+    """Processess a dataset.
+
+    Returns a touple with separate lists for raw data and labels.
+    This fits the format required for deep learning
+    """
+
+    data_x = []
+    data_y = []
+    for features, label in dataset:
+        data_x.append(features)
+        data_y.append(label)
+
+    return (data_x, data_y)
 
 def create_model():
+    """Creates a keras model"""
+
     model = tf.keras.models.Sequential()
     model.add(tf.keras.layers.Flatten())
     model.add(tf.keras.layers.Dense(1024, activation=tf.nn.sigmoid))
@@ -47,44 +67,28 @@ def create_model():
                   metrics=['accuracy'])
     return model
 
+
 def main():
-    training_data = create_dataset("../dataset/output/*.json")
-    test_set = create_dataset("../dataset/output/testset/*.json")
+    """The main function"""
 
-    random.shuffle(training_data)
-
-    train_x = []
-    train_y = []
-    for features, label in training_data:
-        train_x.append(features)
-        train_y.append(label)
-
-    test_x = []
-    test_y = []
-    for features, label in test_set:
-        test_x.append(features)
-        test_y.append(label)
+    (train_x, train_y) = create_dataset("../dataset/output/*.json")
+    (test_x, test_y) = create_dataset("../dataset/output/testset/*.json")
 
     model = create_model()
-
     model.fit(train_x, train_y, epochs=20)
 
     print("\nEvaluating...\n")
-    val_loss, val_acc = model.evaluate(test_x, test_y)
+
+    (val_loss, val_acc) = model.evaluate(test_x, test_y)
+
     print("evaluated loss: ", val_loss)
     print("evaluated accuracy: ", val_acc)
-
     print("\n\n")
 
-    predictions = model.predict(test_x)
-
     correct = 0
-    fault = 0
-    for i, pred in enumerate(predictions):
+    for i, pred in enumerate(model.predict(test_x)):
         if np.argmax(pred) == test_y[i]:
             correct += 1
-        else:
-            fault += 1
 
     print("Actual accurancy: ", correct / len(test_x))
 
