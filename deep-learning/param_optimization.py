@@ -114,7 +114,7 @@ def parameter_optimization(x_data, y_data):
         print("No param grid")
         return
 
-    grid = GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=2, cv=3)
+    grid = GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=1, cv=3)
     grid_result = grid.fit(x_data, y_data, verbose=0)
 
     # summarize results

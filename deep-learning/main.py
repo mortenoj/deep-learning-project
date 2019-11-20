@@ -6,21 +6,9 @@ import glob
 import numpy as np
 
 from keras.models import Sequential
-<<<<<<< Updated upstream
 from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 from keras.constraints import maxnorm
-=======
-from keras.layers import Dense
-from keras.wrappers.scikit_learn import KerasClassifier
-from keras import backend as K
-from tensorflow.python.client import device_lib
-import tensorflow as tf
-
-CONST_epochs = 100
-CONST_optimizer = "adam"
-CONT_activationfunction = "relu"
->>>>>>> Stashed changes
 
 def create_dataset(path):
     """Creates a dataset from the json data in path"""
@@ -90,7 +78,6 @@ def process_dataset(dataset):
 
     return (np.array(data_x), np.array(data_y))
 
-<<<<<<< Updated upstream
 def create_model(parameters):
     """Creates a keras model"""
 
@@ -104,20 +91,17 @@ def create_model(parameters):
             kernel_constraint=maxnorm(parameters["weight_constraint"])
         )
     )
+    model.add(
+        Dense(
+            parameters["neurons"],
+            kernel_initializer=parameters["init_mode"],
+            activation=parameters["activation"],
+            kernel_constraint=maxnorm(parameters["weight_constraint"])
+        )
+    )
 
     model.add(Dropout(parameters["dropout_rate"]))
 
-=======
-def create_model(optimizer=CONST_optimizer):
-    """Creates a keras model"""
-
-    model = Sequential()
-    # model.add(keras.layers.Flatten())
-    model.add(Dense(256, activation=CONT_activationfunction))
-    model.add(Dense(256, activation=CONT_activationfunction))
-    #model.add(Dense(64, activation=CONT_activationfunction))
-    #model.add(Dense(64, activation=CONT_activationfunction))
->>>>>>> Stashed changes
     model.add(Dense(2, activation='softmax'))
 
     optimizer = parameters["optimizer"]
@@ -141,9 +125,8 @@ def train_model(train_x, train_y, val_x, val_y):
     Also evaluates the training after run
     """
 
-<<<<<<< Updated upstream
     parameters = {
-        "optimizer": "Adam",
+        "optimizer": "adam",
         "activation": "relu",
         "init_mode": "normal",
         "learn_rate": 0.01,
@@ -154,11 +137,7 @@ def train_model(train_x, train_y, val_x, val_y):
     }
 
     model = create_model(parameters)
-    model.fit(train_x, train_y, epochs=100, batch_size=60)
-=======
-    model = create_model()
-    model.fit(train_x, train_y, epochs=CONST_epochs, batch_size=1000)
->>>>>>> Stashed changes
+    model.fit(train_x, train_y, epochs=200, batch_size=8192)
     evaluate_training(model, val_x, val_y)
 
 
@@ -190,11 +169,6 @@ def main():
     (val_x, val_y) = create_dataset("../dataset/output/testset/*.json")
 
     train_model(train_x, train_y, val_x, val_y)
-<<<<<<< Updated upstream
-=======
-    # parameter_optimization(train_x, train_y)
-    # parameter_optimization(val_x, val_y)
->>>>>>> Stashed changes
 
 if __name__ == "__main__":
     main()
