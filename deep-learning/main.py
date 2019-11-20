@@ -3,17 +3,12 @@ import json
 import random
 import glob
 
-# import tensorflow as tf
-# import tensorflow.keras as keras
 import numpy as np
 
-# from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
-# from sklearn.model_selection import GridSearchCV
-
-from sklearn.model_selection import GridSearchCV
 from keras.models import Sequential
-from keras.layers import Dense
-from keras.wrappers.scikit_learn import KerasClassifier
+from keras.layers import Dense, Dropout
+from keras.optimizers import SGD
+from keras.constraints import maxnorm
 
 def create_dataset(path):
     """Creates a dataset from the json data in path"""
@@ -58,14 +53,29 @@ def process_dataset(dataset):
 
     return (np.array(data_x), np.array(data_y))
 
-def create_model(optimizer="adam"):
+def create_model(parameters):
     """Creates a keras model"""
 
     model = Sequential()
-    # model.add(keras.layers.Flatten())
-    model.add(Dense(1024, activation='relu'))
-    model.add(Dense(1024, activation='relu'))
+    # model.add(Flatten())
+    model.add(
+        Dense(
+            parameters["neurons"],
+            kernel_initializer=parameters["init_mode"],
+            activation=parameters["activation"],
+            kernel_constraint=maxnorm(parameters["weight_constraint"])
+        )
+    )
+
+    model.add(Dropout(parameters["dropout_rate"]))
+
     model.add(Dense(2, activation='softmax'))
+
+    optimizer = parameters["optimizer"]
+
+    if optimizer == "sgd":
+        optimizer = SGD(lr=parameters["learn_rate"], momentum=parameters["momentum"])
+
 
     model.compile(
         optimizer=optimizer,
@@ -76,55 +86,25 @@ def create_model(optimizer="adam"):
     return model
 
 
-def parameter_optimization(x_data, y_data):
-    """Find the optimal parameters for DL training"""
-
-    # model = KerasClassifier(build_fn=create_model, verbose=0)
-    # param_grid = get_param_grid("epochs")
-
-    model = KerasClassifier(build_fn=create_model, epochs=100, batch_size=10, verbose=0)
-    param_grid = get_param_grid("optimizer")
-
-    if param_grid is None:
-        print("No param grid")
-        return
-
-    grid = GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=-1, cv=3)
-    grid_result = grid.fit(x_data, y_data, verbose=0)
-
-    # summarize results
-    print("Best: %f using %s" % (grid_result.best_score_, grid_result.best_params_))
-
-    means = grid_result.cv_results_['mean_test_score']
-    stds = grid_result.cv_results_['std_test_score']
-    params = grid_result.cv_results_['params']
-    for mean, stdev, param in zip(means, stds, params):
-        print("%f (%f) with: %r" % (mean, stdev, param))
-
-
-def get_param_grid(param):
-    """Returns param grids based on values for the parameter optimization"""
-
-    if param == "epochs":
-        batch_size = [10, 20, 40, 60, 80, 100]
-        epochs = [10, 50, 100]
-        return dict(batch_size=batch_size, epochs=epochs)
-
-    if param == "optimizer":
-        optimizer = ['SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam']
-        return dict(optimizer=optimizer)
-
-    return None
-
-
 def train_model(train_x, train_y, val_x, val_y):
     """Initializes the training of the model
 
     Also evaluates the training after run
     """
 
-    model = create_model()
-    model.fit(train_x, train_y, epochs=20)
+    parameters = {
+        "optimizer": "Adam",
+        "activation": "relu",
+        "init_mode": "normal",
+        "learn_rate": 0.01,
+        "momentum": 0,
+        "neurons": 50,
+        "weight_constraint": 1,
+        "dropout_rate": 0.2
+    }
+
+    model = create_model(parameters)
+    model.fit(train_x, train_y, epochs=100, batch_size=60)
     evaluate_training(model, val_x, val_y)
 
 
@@ -153,8 +133,6 @@ def main():
     (val_x, val_y) = create_dataset("../dataset/output/testset/*.json")
 
     train_model(train_x, train_y, val_x, val_y)
-    # parameter_optimization(train_x, train_y)
-    # parameter_optimization(val_x, val_y)
 
 if __name__ == "__main__":
     main()

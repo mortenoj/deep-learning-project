@@ -4,3 +4,4 @@
 **/*.dem
 **/*.rar
 dataset/output/*.json
+dataset/**/*.json
