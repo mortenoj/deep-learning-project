@@ -157,6 +157,8 @@ def train_model(train_x, train_y, val_x, val_y):
         "dropout_rate": 0.2
     }
 
+    # tensorboard = TensorBoard(log_dir="logs/{}".format("csgo_training"))
+
     model = create_model(parameters)
     tensorboard = TensorBoard(log_dir="logs\{}".format(CONST_NAME))
     model.fit(train_x, train_y, epochs=250, batch_size=4096, validation_split=0.2, callbacks=[tensorboard])
