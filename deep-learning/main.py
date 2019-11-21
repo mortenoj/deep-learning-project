@@ -32,7 +32,7 @@ def create_dataset(path):
                 m_round.append(match_round["TSideTotalWorth"] / t_max_worth)
                 for item in match_round["TEquipment"]:
                     m_round.append(item["Count"] / 5)
-                    
+
                 m_round.append(get_map_id(match_round["Map"]) / 9) # Maybe not divide by 9 as we don't necessarily need to
 
                 dataset.append([m_round, match_round["TerroristsWon"]])
@@ -58,7 +58,7 @@ def get_map_id(map_name):
     elif map_name == "de_inferno":
         return 8
     elif map_name == "de_cbble":
-        return 9    
+        return 9
     else:
         return 0 #unknown
 
@@ -137,7 +137,7 @@ def train_model(train_x, train_y, val_x, val_y):
     }
 
     model = create_model(parameters)
-    model.fit(train_x, train_y, epochs=200, batch_size=8192)
+    model.fit(train_x, train_y, epochs=200, batch_size=100)
     evaluate_training(model, val_x, val_y)
 
 
