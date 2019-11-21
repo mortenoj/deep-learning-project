@@ -4,11 +4,34 @@ import random
 import glob
 
 import numpy as np
+import time
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 from keras.constraints import maxnorm
+from keras.callbacks import TensorBoard
+from keras import backend as K
+
+
+CONST_NAME = "CSGO_Learning{}".format(int(time.time()))
+
+def recall_m(y_true, y_pred):
+        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+        recall = true_positives / (possible_positives + K.epsilon())
+        return recall
+
+def precision_m(y_true, y_pred):
+        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+        precision = true_positives / (predicted_positives + K.epsilon())
+        return precision
+
+def f1_m(y_true, y_pred):
+    precision = precision_m(y_true, y_pred)
+    recall = recall_m(y_true, y_pred)
+    return 2*((precision*recall)/(precision+recall+K.epsilon()))
 
 def create_dataset(path):
     """Creates a dataset from the json data in path"""
@@ -23,6 +46,9 @@ def create_dataset(path):
             for match_round in data:
                 if match_round["CTEquipment"] is None or match_round["TEquipment"] is None:
                     continue
+                #if match_round["CTSideTotalWorth"] > 5000 or match_round["TSideTotalWorth"] > 5000:
+                #    continue
+                
                 m_round = []
                 m_round.append(match_round["CTSideTotalWorth"] / ct_max_worth)
 
@@ -83,22 +109,16 @@ def create_model(parameters):
 
     model = Sequential()
     # model.add(Flatten())
-    model.add(
-        Dense(
-            parameters["neurons"],
-            kernel_initializer=parameters["init_mode"],
-            activation=parameters["activation"],
-            kernel_constraint=maxnorm(parameters["weight_constraint"])
+
+    for _ in range(0, parameters["layer_count"]):
+        model.add(
+            Dense(
+                parameters["neurons"],
+                kernel_initializer=parameters["init_mode"],
+                activation=parameters["activation"],
+                kernel_constraint=maxnorm(parameters["weight_constraint"])
+            )
         )
-    )
-    model.add(
-        Dense(
-            parameters["neurons"],
-            kernel_initializer=parameters["init_mode"],
-            activation=parameters["activation"],
-            kernel_constraint=maxnorm(parameters["weight_constraint"])
-        )
-    )
 
     model.add(Dropout(parameters["dropout_rate"]))
 
@@ -131,13 +151,15 @@ def train_model(train_x, train_y, val_x, val_y):
         "init_mode": "normal",
         "learn_rate": 0.01,
         "momentum": 0,
-        "neurons": 50,
+        "neurons": 80,
+        "layer_count": 1,
         "weight_constraint": 1,
         "dropout_rate": 0.2
     }
 
     model = create_model(parameters)
-    model.fit(train_x, train_y, epochs=200, batch_size=8192)
+    tensorboard = TensorBoard(log_dir="logs\{}".format(CONST_NAME))
+    model.fit(train_x, train_y, epochs=250, batch_size=4096, validation_split=0.2, callbacks=[tensorboard])
     evaluate_training(model, val_x, val_y)
 
 
@@ -158,6 +180,36 @@ def evaluate_training(model, val_x, val_y):
 
     print("Actual accurancy: ", correct / len(val_x))
 
+def train_different_parameters(train_x, train_y):
+    dense_layers = [1, 2, 3]
+    layer_sizes = [16, 32, 64, 128]
+    optimizers = ["adam", "nadam", "adadelta", "sgd", "adagrad"]
+    activation_functions = ["relu", "elu", "selu", "sigmoid"]
+
+    for dense_layer in dense_layers:
+        for layer_size in layer_sizes:
+            for optimizer in optimizers:
+                for activation_function in activation_functions:
+                    NAME = "{}-optimizer{}-activation{}-nodes-{}-layers-{}".format(optimizer, activation_function, layer_size, dense_layer, int(time.time()))
+                    
+                    parameters = {
+                        "optimizer": optimizer,
+                        "activation": activation_function,
+                        "init_mode": "normal",
+                        "learn_rate": 0.01,
+                        "momentum": 0,
+                        "neurons": layer_size,
+                        "layer_count": dense_layer,
+                        "weight_constraint": 1,
+                        "dropout_rate": 0.2
+                    }
+
+                    model = create_model(parameters)
+                    tensorboard = TensorBoard(log_dir="logs\{}".format(NAME))
+                    model.fit(train_x, train_y, epochs=1000, batch_size=4096, validation_split=0.2, callbacks=[tensorboard])
+
+
+
 def main():
     """The main function"""
     #tensorflow.test.is_built_with_cuda()
@@ -166,9 +218,9 @@ def main():
 
     # Create some tensors
     (train_x, train_y) = create_dataset("../dataset/output/*.json")
-    (val_x, val_y) = create_dataset("../dataset/output/testset/*.json")
-
-    train_model(train_x, train_y, val_x, val_y)
+    train_different_parameters(train_x, train_y)
+    #(val_x, val_y) = create_dataset("../dataset/output/testset/*.json")
+    #train_model(train_x, train_y, val_x, val_y)
 
 if __name__ == "__main__":
     main()
