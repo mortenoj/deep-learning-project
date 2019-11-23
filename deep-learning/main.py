@@ -1,10 +1,12 @@
 """json module for parsing json"""
+from __future__ import absolute_import, division, print_function, unicode_literals
 import json
 import random
 import glob
-
 import numpy as np
 import time
+import tensorflow as tf
+import testcases
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
@@ -12,9 +14,13 @@ from keras.optimizers import SGD
 from keras.constraints import maxnorm
 from keras.callbacks import TensorBoard
 from keras import backend as K
+from tensorflow import keras
+from tensorflow.keras import layers
 
 
-CONST_NAME = "CSGO_Learning{}".format(int(time.time()))
+
+
+CONST_NAME = "CSGO_Learning_adam_relu_96nodes_3layers_150epochs{}".format(int(time.time()))
 
 def recall_m(y_true, y_pred):
         true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
@@ -33,7 +39,7 @@ def f1_m(y_true, y_pred):
     recall = recall_m(y_true, y_pred)
     return 2*((precision*recall)/(precision+recall+K.epsilon()))
 
-def create_dataset(path):
+def create_dataset(path, testcase = 0):
     """Creates a dataset from the json data in path"""
 
     t_max_worth = 42750
@@ -46,8 +52,9 @@ def create_dataset(path):
             for match_round in data:
                 if match_round["CTEquipment"] is None or match_round["TEquipment"] is None:
                     continue
-                #if match_round["CTSideTotalWorth"] > 5000 or match_round["TSideTotalWorth"] > 5000:
-                #    continue
+                if not testcase == 0:
+                    if testcases.filter_testcase(testcase, match_round) is False:
+                        continue
                 
                 m_round = []
                 m_round.append(match_round["CTSideTotalWorth"] / ct_max_worth)
@@ -138,36 +145,11 @@ def create_model(parameters):
 
     return model
 
-
-def train_model(train_x, train_y, val_x, val_y):
-    """Initializes the training of the model
-
-    Also evaluates the training after run
-    """
-
-    parameters = {
-        "optimizer": "adam",
-        "activation": "relu",
-        "init_mode": "normal",
-        "learn_rate": 0.01,
-        "momentum": 0,
-        "neurons": 80,
-        "layer_count": 1,
-        "weight_constraint": 1,
-        "dropout_rate": 0.2
-    }
-
-    model = create_model(parameters)
-    tensorboard = TensorBoard(log_dir="logs\{}".format(CONST_NAME))
-    model.fit(train_x, train_y, epochs=250, batch_size=4096, validation_split=0.2, callbacks=[tensorboard])
-    evaluate_training(model, val_x, val_y)
-
-
 def evaluate_training(model, val_x, val_y):
     """Evaluates the quality of the training"""
 
     print("\nEvaluating...\n")
-    (val_loss, val_acc) = model.evaluate(val_x, val_y)
+    (val_loss, val_acc) = model.evaluate(val_x, val_y, verbose = 0)
 
     print("evaluated loss: ", val_loss)
     print("evaluated accuracy: ", val_acc)
@@ -178,12 +160,12 @@ def evaluate_training(model, val_x, val_y):
         if np.argmax(pred) == val_y[i]:
             correct += 1
 
-    print("Actual accurancy: ", correct / len(val_x))
+    print("Actual accuracy: ", correct / len(val_x))
 
 def train_different_parameters(train_x, train_y):
-    dense_layers = [1, 2, 3]
-    layer_sizes = [16, 32, 64, 128]
-    optimizers = ["adam", "nadam", "adadelta", "sgd", "adagrad"]
+    dense_layers = [3]
+    layer_sizes = [32, 64, 128]
+    optimizers = ["adam", "nadam", "adadelta", "sgd", "adagrad", "RMSprop"]
     activation_functions = ["relu", "elu", "selu", "sigmoid"]
 
     for dense_layer in dense_layers:
@@ -206,7 +188,31 @@ def train_different_parameters(train_x, train_y):
 
                     model = create_model(parameters)
                     tensorboard = TensorBoard(log_dir="logs\{}".format(NAME))
-                    model.fit(train_x, train_y, epochs=1000, batch_size=4096, validation_split=0.2, callbacks=[tensorboard])
+                    model.fit(train_x, train_y, epochs=4000, batch_size=4096, verbose=0, validation_split=0.2, callbacks=[tensorboard])
+
+def train_model(train_x, train_y):
+    """Initializes the training of the model
+
+    Also evaluates the training after run
+    """
+
+    parameters = {
+        "optimizer": "adam",
+        "activation": "relu",
+        "init_mode": "normal",
+        "learn_rate": 0.01,
+        "momentum": 0,
+        "neurons": 96,
+        "layer_count": 3,
+        "weight_constraint": 1,
+        "dropout_rate": 0.2 #0.2
+    }
+
+    model = create_model(parameters)
+    tensorboard = TensorBoard(log_dir="logs\{}".format(CONST_NAME))
+    model.fit(train_x, train_y, epochs=150, batch_size=4096, callbacks=[tensorboard]) #validation_split=0.2,
+    return model
+
 
 
 
@@ -217,10 +223,31 @@ def main():
     #print(device_lib.list_local_devices())
 
     # Create some tensors
+    #train_different_parameters(train_x, train_y)
+
+    # Create data sets
     (train_x, train_y) = create_dataset("../dataset/output/*.json")
-    train_different_parameters(train_x, train_y)
-    #(val_x, val_y) = create_dataset("../dataset/output/testset/*.json")
-    #train_model(train_x, train_y, val_x, val_y)
+    (val_x, val_y) = create_dataset("../dataset/output/testset/*.json")
+
+    # Train and evaluate
+    # model = train_model(train_x, train_y)
+    # evaluate_training(model, val_x, val_y)
+
+    # # Save to file
+    # print("\nSaving model to file...\n")
+    # model.save("models/adam_relu_96neurons_3layers_150epochs.h5")
+
+    # Load from file
+    print("\nLoading model from file...\n")  
+    new_model = keras.models.load_model("models/adam_relu_96neurons_3layers_150epochs.h5")
+    print("\nRunning validation set...\n")  
+    evaluate_training(new_model, val_x, val_y)
+
+    for i in range(1, 10):
+        print("\nRunning test case nr {}...\n".format(i))  
+        (test_x, test_y) = create_dataset("../dataset/output/testset/*.json", i)
+        evaluate_training(new_model, test_x, test_y)
+        print("-------------------------------------------")
 
 if __name__ == "__main__":
     main()
