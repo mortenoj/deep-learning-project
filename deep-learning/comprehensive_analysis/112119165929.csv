@@ -1,0 +1,4 @@
+round_epochs,val_loss,val_acc,loss,acc,batch_size,dropout,epochs,first_neuron,last_activation,loss,lr,optimizer,weight_regulizer
+200,8.165781620547847,0.4674457311630249,7.902599838518977,0.48460987,4,0.16,200,8,softmax,binary_crossentropy,5.05,<class 'keras.optimizers.Nadam'>,None
+200,8.16578181558141,0.4674457311630249,7.902600013620954,0.48460987,3,0.12,200,128,softmax,binary_crossentropy,2.08,<class 'keras.optimizers.Adam'>,None
+200,8.165781620547847,0.4674457311630249,7.902599856268105,0.48460987,4,0.2,200,128,softmax,binary_crossentropy,1.09,<class 'keras.optimizers.Nadam'>,None

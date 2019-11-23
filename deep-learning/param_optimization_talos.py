@@ -7,9 +7,11 @@ import numpy as np
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
-from keras.optimizers import Adam, Nadam
-from keras.activations import softmax
-from keras.losses import categorical_crossentropy, logcosh
+from keras.optimizers import Adam, Nadam, RMSprop
+from keras.activations import softmax, relu, elu, sigmoid
+from keras.losses import categorical_crossentropy, logcosh, binary_crossentropy
+from keras import backend as K
+
 
 import talos
 from talos.utils import lr_normalizer
@@ -57,6 +59,23 @@ def process_dataset(dataset):
 
     return (np.array(data_x), np.array(data_y))
 
+def recall_m(y_true, y_pred):
+        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+        recall = true_positives / (possible_positives + K.epsilon())
+        return recall
+
+def precision_m(y_true, y_pred):
+        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+        precision = true_positives / (predicted_positives + K.epsilon())
+        return precision
+
+def f1_m(y_true, y_pred):
+    precision = precision_m(y_true, y_pred)
+    recall = recall_m(y_true, y_pred)
+    return 2*((precision*recall)/(precision+recall+K.epsilon()))
+
 def simple_model(x_train, y_train, x_val, y_val, params):
     """Creates a keras model"""
     model = Sequential()
@@ -82,41 +101,33 @@ def simple_model(x_train, y_train, x_val, y_val, params):
     )
     return out, model
 
+
 def concise_model(x_train, y_train, x_val, y_val, params):
     model = Sequential()
-    model.add(
-        Dense(
-            params['first_neuron'],
-            input_dim=x_train.shape[1],
-            activation=params['activation'],
-            kernel_initializer=params['kernel_initializer']
-        )
-    )
-
+    model.add(Dense(params['first_neuron'], input_dim=90,
+                    activation=params['activation'],
+                    kernel_initializer=params['kernel_initializer']))
+    
     model.add(Dropout(params['dropout']))
 
-    model.add(
-        Dense(
-            1,
-            activation=params['last_activation'],
-            kernel_initializer=params['kernel_initializer']
-        )
-    )
-    model.compile(
-        loss=params['losses'],
-        optimizer=params['optimizer'],
-        metrics=['acc', talos.utils.metrics.f1score]
-    )
-    history = model.fit(
-        x_train,
-        y_train, 
-        validation_data=[x_val, y_val],
-        batch_size=params['batch_size'],
-        callbacks=[talos.utils.live()],
-        epochs=params['epochs'],
-        verbose=0
-    )
+    model.add(Dense(2, activation=params['last_activation'],
+                    kernel_initializer=params['kernel_initializer']))
+    
+    model.compile(loss=params['losses'],
+                  optimizer=params['optimizer'],
+                  metrics=['acc',f1_m,precision_m, recall_m]
+                  # metrics=["accuracy"]
+                  )
+    
+    history = model.fit(x_train, y_train, 
+                        validation_data=[x_val, y_val],
+                        batch_size=params['batch_size'],
+                        callbacks=[talos.utils.live()],
+                        epochs=params['epochs'],
+                        verbose=0)
+
     return history, model
+
 
 def comprehensive_model(x_train, y_train, x_val, y_val, params):
     model = Sequential()
@@ -130,7 +141,7 @@ def comprehensive_model(x_train, y_train, x_val, y_val, params):
 
     model.add(Dropout(params['dropout']))
     model.add(
-        Dense(y_train.shape[1], activation=params['last_activation']))
+        Dense(1, activation=params['last_activation']))
 
     model.compile(
         optimizer=params['optimizer'](lr=lr_normalizer(params['lr'], params['optimizer'])),
@@ -149,27 +160,83 @@ def comprehensive_model(x_train, y_train, x_val, y_val, params):
 
     return out, model
 
+
+
+def field_report_model(x_train, y_train, x_val, y_val, params):
+    model = Sequential()
+    model.add(Dense(10, input_dim=x_train.shape[1],
+                    activation=params['activation'],
+                    kernel_initializer='normal'))
+    
+    model.add(Dropout(params['dropout']))
+    
+    # hidden_layers(model, params, 1)
+    model.add(Dense(1, activation=params['last_activation'],
+                    kernel_initializer='normal'))
+
+    model.compile(loss=params['losses'],
+                  optimizer=params['optimizer'](lr=lr_normalizer(params['lr'],params['optimizer'])),
+                  # metrics=['acc', fmeasure]
+                  metrics=['acc',f1_m,precision_m, recall_m]
+                  )
+    
+    history = model.fit(x_train, y_train, 
+                        validation_data=[x_val, y_val],
+                        batch_size=params['batch_size'],
+                        epochs=params['epochs'],
+                        verbose=0)
+    
+    return history, model
+
 def parameter_optimization(x_data, y_data):
     """Find the optimal parameters for DL training"""
 
     # scan_object = simple_analysis(x_data, y_data)
-    scan_object = concise_analysis(x_data, y_data)
+    # scan_object = concise_analysis(x_data, y_data)
     # scan_object = comprehensive_analysis(x_data, y_data)
+    scan_object = field_report_analysis(x_data, y_data)
 
     evaluate_object = talos.Evaluate(scan_object)
-    evaluate_object.evaluate(x_data, y_data, folds=10, metric='val_accuracy', task='multi_label')
+    evaluate_object.evaluate(x_data, y_data, folds=10, metric='val_acc', task='multi_label')
 
     return scan_object
+
+
+def field_report_analysis(x_data, y_data):
+    params = {
+        'lr': (0.5, 5, 10),
+        'first_neuron':[4, 8, 16, 32, 64],
+        'hidden_layers':[0, 1, 2],
+        'batch_size': (2, 30, 10),
+        'epochs': [150],
+        'dropout': (0, 0.5, 5),
+        'weight_regulizer':[None],
+        'emb_output_dims': [None],
+        'shape':['brick','long_funnel'],
+        'optimizer': [Adam, Nadam, RMSprop],
+        'losses': [logcosh, binary_crossentropy],
+        'activation':[relu, elu],
+        'last_activation': [sigmoid]
+    }
+
+    return talos.Scan(
+        x=x_data,
+        y=y_data,
+        params=params,
+        model=field_report_model,
+        experiment_name="field_report",
+        fraction_limit=.001
+    )
 
 def comprehensive_analysis(x_data, y_data):
     params = {
         'lr': (0.1, 10, 10),
         'first_neuron':[4, 8, 16, 32, 64, 128],
-        'batch_size': [2, 3, 4],
+        'batch_size': [2, 10, 20, 30, 40, 50],
         'epochs': [200],
         'dropout': (0, 0.40, 10),
         'optimizer': [Adam, Nadam],
-        'loss': ['categorical_crossentropy'],
+        'loss': ['binary_crossentropy'],
         'last_activation': ['softmax'],
         'weight_regulizer': [None]
     }
@@ -184,13 +251,14 @@ def comprehensive_analysis(x_data, y_data):
     )
 
 def concise_analysis(x_data, y_data):
+    # then we can go ahead and set the parameter space
     params = {
-        'first_neuron':[9, 10, 11],
+        'first_neuron':[9,10,11],
         'hidden_layers':[0, 1, 2],
         'batch_size': [30],
         'epochs': [100],
         'dropout': [0],
-        'kernel_initializer': ['uniform', 'normal'],
+        'kernel_initializer': ['uniform','normal'],
         'optimizer': ['Nadam', 'Adam'],
         'losses': ['binary_crossentropy'],
         'activation':['relu', 'elu'],
